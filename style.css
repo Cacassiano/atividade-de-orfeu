@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    font-size: 16px;
+}
+body{
+    display: flex;
+    margin: 0;
+    width: auto;
+    height: 99vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img{
+    flex-grow: 1;
+    max-width: 50vh;
+    max-height: 40vh;
+    width: 100%;
+    margin: auto;
+}
+fieldset {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap: 10px;             
+}
+
+fieldset>legend {
+    text-align: center;
+}
+div.field{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+div.field> h1{
+    flex-grow: 1;
+}
+div.field> h1, h2 {
+    text-align: center;
+    font-size: 2em;
+}
+#header {
+    flex-direction: row;
+}
+nav {
+    flex-grow: 1;
+    list-style: none;
+    display: flex;            
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+nav>ul {
+    list-style: none;
+    flex-grow: 1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div.statics {
+    height: 50px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+div.left{
+    margin: 5px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+div.right {
+    margin: 5px;
+    flex-grow: 1;
+}
+
+#email {
+    width: 120px;
+}   
