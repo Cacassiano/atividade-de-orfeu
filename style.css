@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-size: 16px;
+    color: #046865;
 }
 body{
     display: flex;
@@ -9,6 +10,7 @@ body{
     height: 99vh;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #b20d30;
 }
 img{
     flex-grow: 1;
@@ -29,7 +31,7 @@ fieldset>legend {
     text-align: center;
 }
 div.field{
-    background-color: gray;
+    background-color: #ffe66d;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -52,10 +54,9 @@ nav {
 }
 a{
     text-decoration: none;
-    color: black;
 }
 a:hover{
-    color: red;
+    color: #21A0A0;
     text-decoration: none;
 }
 nav>ul {
